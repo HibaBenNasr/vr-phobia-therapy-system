@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/StartScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/HomeScene.unity
+    guid: 8b38c90b228fd2e43b1532e833107a6e
+  - enabled: 1
+    path: Assets/Scenes/GlossophobiaLevel1.unity
+    guid: 37f3a21c947f24848ba70d2b9fa4d3ee
+  - enabled: 0
+    path: Assets/Scenes/GlossophobiaLevel2.unity
+    guid: 5d002823a1a12bf4a9c4d8dac72a2812
+  - enabled: 1
+    path: Assets/Scenes/SkyscraperScenario.unity
+    guid: 7bda73d3d444fbc41a9bdd41f814d315
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a6719dd088d4d2e4584d7f431ec6c130, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: bbcbec637eeddd14bb40a965762b848d, type: 2}
+  m_UseUCBPForAssetBundles: 0

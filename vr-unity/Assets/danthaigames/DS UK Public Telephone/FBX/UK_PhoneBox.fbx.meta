@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: da02b2415be377245872aed5547043d7
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Door
+    100002: Picture Frame Bottom
+    100004: Picture Frame Top
+    100006: Screw
+    100008: Screw.001
+    100010: Screw.002
+    100012: Screw.003
+    100014: Screw.004
+    100016: Screw.005
+    100018: Screw.006
+    100020: Screw.007
+    100022: //RootNode
+    400000: Door
+    400002: Picture Frame Bottom
+    400004: Picture Frame Top
+    400006: Screw
+    400008: Screw.001
+    400010: Screw.002
+    400012: Screw.003
+    400014: Screw.004
+    400016: Screw.005
+    400018: Screw.006
+    400020: Screw.007
+    400022: //RootNode
+    2100000: Phone Box Material
+    2100002: Phone Box Trims
+    2100004: Windows
+    2100006: Light
+    2100008: No Name
+    2300000: Door
+    2300002: Picture Frame Bottom
+    2300004: Picture Frame Top
+    2300006: Screw
+    2300008: Screw.001
+    2300010: Screw.002
+    2300012: Screw.003
+    2300014: Screw.004
+    2300016: Screw.005
+    2300018: Screw.006
+    2300020: Screw.007
+    2300022: //RootNode
+    3300000: Door
+    3300002: Picture Frame Bottom
+    3300004: Picture Frame Top
+    3300006: Screw
+    3300008: Screw.001
+    3300010: Screw.002
+    3300012: Screw.003
+    3300014: Screw.004
+    3300016: Screw.005
+    3300018: Screw.006
+    3300020: Screw.007
+    3300022: //RootNode
+    4300000: Main Structure
+    4300002: Picture Frame Bottom
+    4300004: Screw.007
+    4300006: Screw.006
+    4300008: Screw.005
+    4300010: Screw.004
+    4300012: Picture Frame Top
+    4300014: Screw.003
+    4300016: Screw.002
+    4300018: Screw.001
+    4300020: Screw
+    4300022: Door
+    7400000: Door|PhoneboxDoor_Close
+    7400002: Door|PhoneboxDoor_Open
+    7400004: Door|PhoneboxDoor_Static
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121812
+  packageName: DS UK Public Telephone
+  packageVersion: 1.0
+  assetPath: Assets/danthaigames/DS UK Public Telephone/FBX/UK_PhoneBox.fbx
+  uploadId: 256184

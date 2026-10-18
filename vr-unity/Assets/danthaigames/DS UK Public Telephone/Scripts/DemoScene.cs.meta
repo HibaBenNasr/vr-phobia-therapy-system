@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cfd1f43cac9f5474e9f515b9a06b3148
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121812
+  packageName: DS UK Public Telephone
+  packageVersion: 1.0
+  assetPath: Assets/danthaigames/DS UK Public Telephone/Scripts/DemoScene.cs
+  uploadId: 256184

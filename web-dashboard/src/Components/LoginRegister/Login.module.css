@@ -1,0 +1,141 @@
+.wrapper {
+  position: relative;
+  width: 420px;
+  height: 350px;
+  background: rgba(255, 255, 255, 0.74);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #333333;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  transition: height 0.2s ease;
+}
+
+.wrapperActive {
+  height: 500px;
+}
+
+.wrapper .form-box {
+  width: 100%;
+  padding: 40px;
+}
+
+/* annimation */
+.wrapper .form-box.login {
+  transition: translate 0.18s ease;
+  translate: 0;
+}
+
+.wrapperActive .form-box.login {
+  transition: none;
+  translate: -400px;
+}
+
+.wrapper .form-box.register {
+  position: absolute;
+  transition: none;
+  translate: 400px;
+}
+
+.wrapperActive .form-box.register {
+  transition: translate 0.18s ease;
+  translate: 0;
+}
+/* end annimation */
+
+form h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+form .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 20px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  /* background: transparent; */
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  font-size: 16px;
+  color: #333;
+  padding: 20px 20px 20px 45px;
+}
+
+.input-box input:hover {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  border-color: #007bff;
+  background-color: #fdfafa;
+}
+
+.input-box input:focus {
+  box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.6);
+  border-color: #007bff;
+}
+
+.input-box input:focus + .icon {
+  color: rgb(0, 123, 255);
+}
+
+.input-box input::placeholder {
+  color: #333;
+}
+
+.input-box .icon {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  translate: 0 -50%;
+  font-size: 16px;
+  color: #333;
+}
+
+form .remember-forgot {
+  display: flex;
+  justify-content: end;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+  color: #333;
+}
+
+.remember-forgot label input {
+  accent-color: rgb(38, 0, 255);
+  margin-right: 4px;
+}
+
+.remember-forgot p {
+  margin-right: 40px;
+  color: #333;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+  color: rgb(34, 23, 197);
+}
+
+form .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+  color: #333;
+}
+
+.register-link p a {
+  color: rgb(5, 5, 231);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
