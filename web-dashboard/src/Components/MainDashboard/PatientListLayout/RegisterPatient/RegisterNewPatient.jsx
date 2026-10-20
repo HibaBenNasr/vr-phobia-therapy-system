@@ -3,7 +3,7 @@ import Stepper from "./Stepper";
 import FinalStep from "./FinalStep";
 import StepperControl from "./StepperControl";
 import { StepperContext } from "../../../../contexts/StepperContext";
-import DetailsStep from "./DEtailsStep";
+import DetailsStep from "./DetailsStep";
 import BasicInformationStep from "./BasicInformationStep";
 import ContactStep from "./ContactStep";
 
