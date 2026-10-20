@@ -14,10 +14,10 @@
 #define WIFI_PASSWORD   "wifi_password"
 
 // —— Firebase Credentials ——————————————————————————————————
-#define API_KEY         ""
-#define USER_EMAIL      ""
-#define USER_PASSWORD   ""
-#define DATABASE_URL    ""
+#define API_KEY         "YOUR_API_KEY"
+#define USER_EMAIL      "YOUR_USER_EMAIL"
+#define USER_PASSWORD   "YOUR_USER_PASSWORD"
+#define DATABASE_URL    "YOUR_DATABASE_URL"
 
 
 
