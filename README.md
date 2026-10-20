@@ -1,3 +1,5 @@
+![CI](https://github.com/HibaBenNasr/vr-phobia-therapy-system/actions/workflows/ci.yml/badge.svg)
+
 #  VR Phobia Therapy System
 
 **An immersive Virtual Reality system combining progressive phobia-exposure scenarios, physiological monitoring, and a therapist web dashboard.**
