@@ -1,4 +1,5 @@
-![CI](https://github.com/HibaBenNasr/vr-phobia-therapy-system/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/HibaBenNasr/vr-phobia-therapy-system/actions/workflows/ci.yml/badge.svg) 
+CI builds the web dashboard and compiles the ESP32 firmware. The Unity app and the hardware itself are not covered.
 
 #  VR Phobia Therapy System
 
