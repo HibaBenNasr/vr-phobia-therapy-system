@@ -54,7 +54,7 @@ The therapist dashboard supports both automatic and manual exposure-level adjust
 ###  Physiological Monitoring
 
 - Acquisition of physiological measurements using a MAX30102 sensor and ESP32.
-- Heart-rate and SpO₂ data monitoring.
+- Heart-rate data monitoring.
 - Real-time visualization of available sensor readings in the therapist dashboard.
 - A sensor-derived stress-status indicator to support session observation.
 
@@ -96,6 +96,15 @@ Firebase services support the wider system:
 - **Firebase Realtime Database:** Real-time physiological data and related live session state.
 
 At a high level, the system connects the patient's VR experience, physiological monitoring, and the therapist's dashboard to support observation and control during a session.
+
+```mermaid
+flowchart TD
+    A[MAX30102 Sensor] -->|I²C| B[ESP32 Firmware]
+    B -->|Wi-Fi / Firebase SDK| C[Firebase Realtime Database]
+    C --> D[React Therapist Dashboard]
+    C <--> E[Unity VR Application]
+    D -->|Therapist supervision and controls| C
+```
 
 ##  Technology Stack
 
@@ -148,22 +157,27 @@ Demonstrates session configuration, physiological-data charts, session logs, equ
 
 [▶️ Watch the Live Therapy Session Demo](https://github.com/user-attachments/assets/e89cc1aa-bb3e-4724-8f2b-200c6a52af78)
 
-##  Repository Structure
+
+## Repository Structure
 
 ```text
 vr-phobia-therapy-system/
 ├── README.md
 ├── vr-unity/
 │   └── README.md
-└── web-dashboard/
+├── web-dashboard/
+│   └── README.md
+└── esp32-firmware/
+    ├── esp32-firmware.ino
     └── README.md
 ```
 
-The `vr-unity/` directory contains the Unity VR application and its related project assets.
+- **`vr-unity/`** — Unity application containing the VR exposure environments.
+- **`web-dashboard/`** — React-based therapist dashboard for patient management and session supervision.
+- **`esp32-firmware/`** — ESP32 firmware for MAX30102 heart-rate acquisition and Firebase Realtime Database communication.
 
-The `web-dashboard/` directory contains the React-based therapist dashboard.
+Refer to each component's README for its specific features, setup instructions, and demonstrations.
 
-Refer to each subdirectory's README for component-specific information, demonstrations, and setup guidance.
 
 ##  Setup and Configuration
 
@@ -191,6 +205,22 @@ Typical prerequisites include:
 Open the `vr-unity/` directory through Unity Hub and check the project configuration before building.
 
 **Note:** A fresh build has not been verified as part of this README update. Unity version compatibility, external assets, Firebase configuration, and other dependencies may need to be checked or restored.
+
+### ESP32 Firmware
+
+The embedded firmware runs on an ESP32 connected to a MAX30102 sensor. It reads heart-rate measurements, applies basic threshold-based classification, and sends session data to Firebase Realtime Database over Wi-Fi.
+
+**Prerequisites:**
+- Arduino IDE with ESP32 board support.
+- Firebase ESP Client library and SparkFun MAX3010x sensor library.
+- An ESP32 board, MAX30102 sensor, Wi-Fi connection, and configured Firebase project.
+
+Open `esp32-firmware/esp32-firmware.ino`, configure the Wi-Fi and Firebase credentials, and upload the firmware to the ESP32.
+
+See the [ESP32 Firmware README](./esp32-firmware/README.md) for detailed library installation, wiring, Firebase configuration, and testing instructions.
+
+**Note:** The current firmware processes heart rate (BPM); SpO₂ calculation is not implemented in this version.
+
 
 ##  Academic Context
 
