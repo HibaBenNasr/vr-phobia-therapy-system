@@ -264,7 +264,7 @@ const Charts = ({ sessionStat }) => {
           BPM Over Time
         </h2>
         <div className="w-full h-4/5 border border-gray-300 rounded-lg p-2">
-          <Line data={bpmData} options={bpmChartOptions} />
+          <Line data={bpmData} options={bpmChartOptions} plugins={[chartBackgroundPlugin]} />
         </div>
       </div>
 
