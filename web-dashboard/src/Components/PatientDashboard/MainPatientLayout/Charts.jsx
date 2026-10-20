@@ -188,7 +188,7 @@ const Charts = ({ sessionStat }) => {
         ticks: { color: isDarkMode ? "white" : "black" },
       },
     },
-    plugins: [chartBackgroundPlugin],
+    
   };
 
   const transitionChartOptions = {
